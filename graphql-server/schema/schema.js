@@ -1,4 +1,4 @@
-const qraphql = require("graphql");
+const graphql = require("graphql");
 const {GraphQLObjectType, GraphQLString, GraphQLSchema} = graphql;
 
 const BookType = new GraphQLObjectType({
